@@ -14,4 +14,5 @@ resizedSmallerImage = cv2.resize(img, dimensions, interpolation=cv2.INTER_AREA)
 # Showing an image
 cv2.imshow("Resized Smaller Image", resizedSmallerImage)
 
+# necessary to keep the window unclosed
 cv2.waitKey(0)  # put milliseconds as an argument 0 means infinite
